@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/kiefer-dev/fullstackopen-phonebook/issues"
   },
-  "homepage": "https://github.com/kiefer-dev/fullstackopen-phonebook#readme"
+  "homepage": "https://github.com/kiefer-dev/fullstackopen-phonebook#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
 }

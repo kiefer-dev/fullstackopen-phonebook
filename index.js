@@ -33,6 +33,10 @@ const persons = [
 app.get('/', (request, response) => {
   response.send('<h1>Please use /api/persons to see phonebook</h1>');
 })
+//GET request to /api/persons
+app.get('/api/persons', (request, response) => {
+  response.json(persons);
+})
 
 
 
